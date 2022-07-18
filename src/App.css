@@ -1,0 +1,42 @@
+.app__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.app__stats{
+    display: flex;
+    justify-content: space-between;
+}
+
+.app{
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.app__left{
+    flex: 0.7;
+}
+
+.app__right{
+    flex: 0.2;
+}
+
+.app__right h3{
+    margin-bottom: 20px;
+}
+
+img{
+    width: 50px;
+    height: 30px;
+}
+
+@media (max-width: 868px) {
+    .app{
+        flex-direction: column;
+        margin: 20px;
+    }
+    
+}

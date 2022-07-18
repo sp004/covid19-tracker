@@ -1,0 +1,36 @@
+.infobox{
+    flex: 1;
+}
+
+.infobox:not(:last-child){
+    margin-right: 15px;
+}
+
+.infobox__content{
+    text-align: center;
+}
+
+.infobox:first-child{
+    border-top: 7px solid blue;
+}
+
+.infobox:nth-child(2){
+    border-top: 7px solid green;
+}
+
+.infobox:last-child{
+    border-top: 7px solid red;
+}
+
+.infobox__cases{
+    color: #cc1034;
+    font-weight: 800 !important;
+    font-size: 1.75rem !important;
+  }
+  
+  .infobox__totalCases {
+    color: #6c757d;
+    font-weight: 700 !important;
+    font-size: 1rem !important;
+    margin-top: 15px !important;
+  }

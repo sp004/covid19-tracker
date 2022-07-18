@@ -1,0 +1,21 @@
+.table{
+    height: 310px;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin: 15px 0;
+    border: 2px solid brown
+}
+
+.table::-webkit-scrollbar{
+    width: 5px;
+}
+
+tr{
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.table tr:nth-child(odd){
+    background-color: rgb(226, 241, 247);
+}
